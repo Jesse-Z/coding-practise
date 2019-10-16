@@ -46,10 +46,20 @@ class ListNode:
         self.val = x
         self.next = None
 
-
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
-
-        pass
+        if head is None or head.next is None:
+            return False
+        p = head
+        q = head.next
+        while p != q:
+            if p is None or q is None:
+                return False
+            p = p.next
+            if q.next is not None:
+                q = q.next.next
+            else:
+                return False
+        return True
 
 # leetcode submit region end(Prohibit modification and deletion)
