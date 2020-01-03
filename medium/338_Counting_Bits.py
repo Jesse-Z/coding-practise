@@ -3,6 +3,8 @@ Jesse@FDU-VTS-MIA
 created by 2019/12/24
 """
 from typing import List
+
+
 class Solution:
     def countBits(self, num: int) -> List[int]:
         ans = self.brutal(num)
@@ -16,7 +18,7 @@ class Solution:
         for curr in range(num):
             count = 0
             while curr:
-                curr&=curr-1
+                curr &= curr - 1
                 count += 1
             ans.append(count)
         return ans
