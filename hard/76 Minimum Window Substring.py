@@ -32,7 +32,3 @@ class Solution:
                 left += 1
             right += 1
         return s[ans[1]: ans[2]+1] if ans[0] != -1 else ""
-
-
-solve = Solution()
-solve.minWindow("aac", "aa")
