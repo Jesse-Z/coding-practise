@@ -2,4 +2,6 @@
 #### Top100
 Easy(done)
 
-Medium
+Medium(done)
+
+hard(working)
