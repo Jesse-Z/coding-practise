@@ -1,9 +1,11 @@
-"""
-Jesse@FDU-VTS-MIA
-created @date: 2020-01-03 
-"""
+# -*- coding: utf-8 -*-
+#
+# Jesse@FDU-VTS-MIA
+# created @date: 2020/3/4
+#
+# 同leetcode第十题，https://leetcode-cn.com/problems/regular-expression-matching/
 from typing import List
-from collections import defaultdict
+from collections import defaultdict, Counter, deque
 
 
 class Solution:
@@ -12,6 +14,10 @@ class Solution:
         return ans
 
     def dp(self, s: str, p: str) -> bool:
+        """
+        状态转移矩阵dp_array[i][j]含义：s前i位和p前j位是否匹配
+        画出有限状态机更好进行判断。
+        """
         dp_array = [[False] * (len(p) + 1) for _ in range(len(s) + 1)]
         dp_array[0][0] = True
         for j in range(len(p)):
@@ -46,4 +52,5 @@ class Solution:
 
 
 solve = Solution()
-solve.dp("aa", "a*")
+print(solve.isMatch("mississippi"
+                    , "mis*is*p*."))
