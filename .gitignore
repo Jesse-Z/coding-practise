@@ -1,5 +1,9 @@
 *.json
 leetcode/*
 .idea/*
-temp/*
+*/temp/*
 .vscode/*
+.vs/*
+
+# cpp build
+*.exe
