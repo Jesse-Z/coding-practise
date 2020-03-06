@@ -1,7 +1,3 @@
 ### Problem List
-#### Top100
-Easy(done)
-
-Medium(done)
-
-hard(working)
+- top 100 (100/100)
+- 剑指offer (26/?)
