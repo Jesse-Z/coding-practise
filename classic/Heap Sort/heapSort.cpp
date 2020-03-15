@@ -9,11 +9,12 @@ using namespace std;
 class myHeap{
 public:
     vector<int> heap;
-    bool isInit;
-    myHeap():isInit(false){}
-    myHeap(vector<int> a):heap(a), isInit(false){
-        // heap = a;
-        // initHeap();
+    bool isInit = false;
+    myHeap(){}
+    myHeap(vector<int> a){
+        heap = a;
+        initHeap();
+        // printVec();
     }
     void maxHeapify(int curr, int end){
         int large = curr;
@@ -108,11 +109,8 @@ public:
 
 int main(){
     myHeap* h = new myHeap(vector<int>{3,21,-1,5,8});
-    h->heap.emplace_back(2);
-    h->heap.emplace_back(78);
-    h->heap.emplace_back(-8);
-    h->initHeap();
-    h->printVec();
+    // h->initHeap();
+    // h->printVec();
     h->insertHeap(3);
     h->printVec();
     h->insertHeap(108);
