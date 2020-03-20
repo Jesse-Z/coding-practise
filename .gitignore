@@ -4,6 +4,7 @@ leetcode/*
 */temp/*
 .vscode/*
 .vs/*
+meituan-*/
 
 # cpp build
 *.exe
