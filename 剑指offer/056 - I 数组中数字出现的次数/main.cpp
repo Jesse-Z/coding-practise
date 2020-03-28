@@ -14,6 +14,7 @@ public:
             temp = temp^i;
         }
         int highBit=1;
+        // 找到一个不相同的位
         while(!(highBit&temp)){
             highBit<<=1;
         }
