@@ -1,6 +1,7 @@
 *.json
 leetcode/*
 .idea/*
+temp/*
 */temp/*
 .vscode/*
 .vs/*
