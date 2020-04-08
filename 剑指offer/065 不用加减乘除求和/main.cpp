@@ -1,9 +1,8 @@
 /**
-*
-* Jesse@FDU-VTS-MIA
-* created @date: 2020-04-08 
-* 
-* brief: 求两个整数之和，要求在函数体内不得使用 “+”、“-”、“*”、“/” 四则运算符号。
+ Jesse@FDU-VTS-MIA
+ created @date: 2020-04-08 
+ 
+ brief: 求两个整数之和，要求在函数体内不得使用 “+”、“-”、“*”、“/” 四则运算符号。
 */
 #include<bits/stdc++.h>
 using namespace std;
