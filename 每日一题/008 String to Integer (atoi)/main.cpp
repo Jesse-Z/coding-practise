@@ -33,6 +33,7 @@ public:
             if(ans>INT_MAX/10 || (ans==INT_MAX/10 && r>7))
                 return flag == 1 ? INT_MAX : INT_MIN;
             ans = ans*10 + r;
+            i++;
         }
         return ans*flag;
     }
