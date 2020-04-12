@@ -2,7 +2,7 @@
  Jesse@FDU-VTS-MIA
  created @date: 2020-04-12 
  
- brief: 
+ brief: https://leetcode-cn.com/circle/discuss/eXOcnD/view/SecVmv/
 */
 #include<bits/stdc++.h>
 using namespace std;

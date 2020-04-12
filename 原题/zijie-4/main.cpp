@@ -2,7 +2,7 @@
  Jesse@FDU-VTS-MIA
  created @date: 2020-04-12 
  
- brief: 
+ brief: 类似求每个数的左右边界
 */
 #include<bits/stdc++.h>
 using namespace std;

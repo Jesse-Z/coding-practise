@@ -2,7 +2,7 @@
  Jesse@FDU-VTS-MIA
  created @date: 2020-04-12 
  
- brief: 
+ brief: 抵用券，当商品金额大于等于券时才能用，求最少要付多少现金
 */
 #include<bits/stdc++.h>
 using namespace std;
