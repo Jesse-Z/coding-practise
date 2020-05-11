@@ -95,8 +95,8 @@ public:
         }
         int n = heap.size();
         for(int i=n-1; i>0; --i){
-            maxHeapify(0, i);
             swap(heap[0], heap[i]);
+            maxHeapify(0, i);
         }
         isInit = false;
     }
