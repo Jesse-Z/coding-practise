@@ -5,6 +5,8 @@ temp/*
 */temp/*
 .vscode/*
 .vs/*
+*.class
+*.java
 # meituan-*/
 
 # cpp build
