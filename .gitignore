@@ -8,6 +8,7 @@ temp/*
 *.class
 *.java
 # meituan-*/
+.idea/*
 
 # cpp build
 *.exe
