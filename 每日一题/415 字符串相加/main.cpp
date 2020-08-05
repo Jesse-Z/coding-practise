@@ -8,7 +8,7 @@
 using namespace std;
 class Solution {
 public:
-    // 结果存在longer中
+    // 相加字符串，结果存在longer中，两个字符串都是逆序
     void helper(string &longer, string &shorter){
         int mod = 0, rect = 0, sum_ = 0;
         for(int i=0; i<shorter.size(); ++i){
